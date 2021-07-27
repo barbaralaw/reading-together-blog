@@ -9,6 +9,7 @@ const PostPage = (props) => {
         <Image
           src={props.post.feature_image}
           alt={props.post.title}
+        />
       </>
       <h1>{props.post.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: props.post.html }} />
