@@ -1,6 +1,7 @@
 // pages/posts/[slug].js
 
 import { getSinglePost, getPosts } from "../../lib/functions";
+import Image from 'next/image';
 
 const PostPage = (props) => {
   return (
